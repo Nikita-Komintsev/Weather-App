@@ -180,7 +180,7 @@ const handleSubmit = (e) => {
 };
 
 const handleClose = () => {
-    popup.classList.toggle('popup-close');
+    popup.classList.toggle('active');
 };
 
 form.addEventListener('submit', handleSubmit)
